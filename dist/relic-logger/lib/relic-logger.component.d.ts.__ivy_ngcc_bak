@@ -1,0 +1,7 @@
+import { OnInit } from '@angular/core';
+import { RelicLoggerService } from './relic-logger.service';
+export declare class RelicLoggerComponent implements OnInit {
+    private svc;
+    constructor(svc: RelicLoggerService);
+    ngOnInit(): void;
+}

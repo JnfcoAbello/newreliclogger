@@ -1,0 +1,7 @@
+import { Observable } from 'rxjs';
+import { HttpClient } from '@angular/common/http';
+export declare class RelicLoggerService {
+    private http;
+    constructor(http: HttpClient);
+    newRelicTest(message: string, appSection: string, workspaceID: string, uuid: string): Observable<any>;
+}

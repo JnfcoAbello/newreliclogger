@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { RelicLoggerService } from './relic-logger.service';
 
 @Component({
   selector: 'lib-relic-logger',
@@ -12,9 +13,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RelicLoggerComponent implements OnInit {
 
-  constructor() { }
+  constructor(private svc: RelicLoggerService) { }
 
   ngOnInit(): void {
+    this.svc.newRelicTest("message test","plugin section","vghhcvujk65jj","gddgddfgfcbb").subscribe( data => {
+      console.log("data: " + data);
+    })
   }
 
 }

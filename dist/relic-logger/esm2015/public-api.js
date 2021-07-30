@@ -1,0 +1,7 @@
+/*
+ * Public API Surface of relic-logger
+ */
+export * from './lib/relic-logger.service';
+export * from './lib/relic-logger.component';
+export * from './lib/relic-logger.module';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3Byb2plY3RzL3JlbGljLWxvZ2dlci9zcmMvcHVibGljLWFwaS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7R0FFRztBQUVILGNBQWMsNEJBQTRCLENBQUM7QUFDM0MsY0FBYyw4QkFBOEIsQ0FBQztBQUM3QyxjQUFjLDJCQUEyQixDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiLypcbiAqIFB1YmxpYyBBUEkgU3VyZmFjZSBvZiByZWxpYy1sb2dnZXJcbiAqL1xuXG5leHBvcnQgKiBmcm9tICcuL2xpYi9yZWxpYy1sb2dnZXIuc2VydmljZSc7XG5leHBvcnQgKiBmcm9tICcuL2xpYi9yZWxpYy1sb2dnZXIuY29tcG9uZW50JztcbmV4cG9ydCAqIGZyb20gJy4vbGliL3JlbGljLWxvZ2dlci5tb2R1bGUnO1xuIl19
